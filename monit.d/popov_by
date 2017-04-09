@@ -1,0 +1,3 @@
+check host popov.by with address popov.by
+    alert monit@popov.by
+    if failed url http://popov.by/ with timeout 5 seconds for 3 cycles then alert
