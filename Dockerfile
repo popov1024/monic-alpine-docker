@@ -7,4 +7,4 @@ VOLUME /etc/monit.d/
 
 EXPOSE 2812
 
-CMD [monit", "-I"]
+CMD ["monit", "-I"]
