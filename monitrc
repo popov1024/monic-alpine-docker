@@ -147,8 +147,8 @@ set logfile syslog
 ## enable SSL for the HTTP interface.
 #
 set httpd port 2812 and
-    use address localhost  # only accept connection from localhost
-    allow localhost        # allow localhost to connect to the server and
+#   use address localhost  # only accept connection from localhost
+#   allow localhost        # allow localhost to connect to the server and
     allow admin:monit      # require user 'admin' with password 'monit'
 
 ###############################################################################
@@ -286,5 +286,5 @@ set httpd port 2812 and
 ## It is possible to include additional configuration parts from other files or
 ## directories.
 #
-#  include /etc/monit.d/*
+include /etc/monit.d/*
 #
