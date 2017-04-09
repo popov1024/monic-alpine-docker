@@ -4,6 +4,6 @@ services:
     image: 'popov1024/monit-alpine'
     volumes:
       - './monit.d/:/etc/monit.d/'
-      - 'monitrc:/etc/monitrc'
+      - './monitrc:/etc/monitrc'
     ports:
       - '2812:2812'
