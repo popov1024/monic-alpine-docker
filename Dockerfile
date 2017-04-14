@@ -7,4 +7,6 @@ VOLUME /etc/monit.d/
 
 EXPOSE 2812
 
-CMD ["monit", "-I"]
+ENTRYPOINT ["chmod", "0700", "/etc/monitrc"]
+
+CMD ["monit", "-I", "-B"]
