@@ -1,3 +1,5 @@
+[![Docker Repository on Quay](https://quay.io/repository/popov1024/monit-alpine-docker/status "Docker Repository on Quay")](https://quay.io/repository/popov1024/monit-alpine-docker)
+
 # Monit on alpine
 
 ![Monit](https://mmonit.com/monit/img/logo.png "Monit logo")
