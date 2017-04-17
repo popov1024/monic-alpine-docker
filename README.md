@@ -4,7 +4,7 @@
 
 ![Monit](https://mmonit.com/monit/img/logo.png "Monit logo")
 
-[Monit][Monit] is very simple and simple for monitoring system.
+[Monit][Monit] is very simple system for monitoring.
 
 ## How to use
 ### Simple run
