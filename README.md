@@ -1,4 +1,4 @@
-[![Docker Repository on Quay](https://quay.io/repository/popov1024/monit-alpine-docker/status "Docker Repository on Quay")](https://quay.io/repository/popov1024/monit-alpine-docker)
+[![Docker Repository on Quay](https://quay.io/repository/popov1024/monit-alpine-docker/status "Docker Repository on Quay")](https://quay.io/repository/popov1024/monit-alpine-docker) [![](https://images.microbadger.com/badges/image/popov1024/monit-alpine.svg)](https://microbadger.com/images/popov1024/monit-alpine "Get your own image badge on microbadger.com")
 
 # Monit on alpine
 
