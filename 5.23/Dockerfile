@@ -1,4 +1,4 @@
-FROM alpine:latest
+FROM alpine:edge
 
 RUN apk update && \
     apk add monit=5.23.0-r0
