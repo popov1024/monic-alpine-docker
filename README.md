@@ -1,8 +1,10 @@
+[![Docker Repository on Quay](https://quay.io/repository/popov1024/monit-alpine-docker/status "Docker Repository on Quay")](https://quay.io/repository/popov1024/monit-alpine-docker) [![](https://images.microbadger.com/badges/image/popov1024/monit-alpine.svg)](https://microbadger.com/images/popov1024/monit-alpine "Get your own image badge on microbadger.com")
+
 # Monit on alpine
 
 ![Monit](https://mmonit.com/monit/img/logo.png "Monit logo")
 
-[Monit][Monit] is very simple and simple for monitoring system.
+[Monit][Monit] is very simple system for monitoring.
 
 ## How to use
 ### Simple run
