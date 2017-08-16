@@ -1,7 +1,6 @@
 FROM alpine:latest
 
-RUN apk update && \
-    apk add monit=5.22.0-r0
+RUN apk --no-cahe add monit=5.22.0-r0
 
 VOLUME /etc/monit.d/
 
