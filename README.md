@@ -27,7 +27,7 @@ $ docker run -d --name monit -p 2812:2812 popov1024/monit-alpine
 $ docker run -d --name monit -p 2812:2812 -v "/path/to/configs:/etc/monit.d" popov1024/monit-alpine
 ```
 
-* You can change [the config](https://github.com/popov1024/monit-alpine-docker/blob/master/monitrc) for `Monit` `/etc/monitrc' and mount:
+* You can change [the config](https://github.com/popov1024/monit-alpine-docker/blob/master/monitrc) for `Monit` `/etc/monitrc` and mount:
 ```
 $ docker run -d --name monit -p 2812:2812 -v "/path/to/configs:/etc/monit.d" -v "/path/to/monitrc:/etc/monitrc" popov1024/monit-alpine
 ```
