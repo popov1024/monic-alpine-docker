@@ -1,6 +1,6 @@
 FROM alpine:edge
 
-RUN apk --no-cache add monit=5.23.0-r0
+RUN apk --no-cache add monit=5.24.0-r1
 
 VOLUME /etc/monit.d/
 
