@@ -2,9 +2,7 @@ language: bash
 services: docker
 
 env:
-  - VERSION=5.20 VARIANT=
-  - VERSION=5.22 VARIANT=
-  - VERSION=5.24 VARIANT=
+  - VERSION=5.25 VARIANT=
 
 install:
 
