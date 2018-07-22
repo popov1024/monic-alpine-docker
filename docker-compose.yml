@@ -2,6 +2,9 @@ version: '2'
 services:
   monit:
     image: popov1024/monit-alpine
+    build:
+      context: .
+      dockerfile: Dockerfile
     volumes:
       - ./monit.d/:/etc/monit.d/
       - ./monitrc:/etc/monitrc:ro
