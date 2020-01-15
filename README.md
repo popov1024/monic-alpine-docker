@@ -1,5 +1,3 @@
-[![Build Status](https://travis-ci.org/popov1024/monit-alpine-docker.svg?branch=master)](https://travis-ci.org/popov1024/monit-alpine-docker)
-
 # Monit on alpine
 
 ![Monit](https://mmonit.com/monit/img/logo.png "Monit logo")
